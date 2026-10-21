@@ -1,0 +1,35 @@
+
+:root{
+    --color1: #219ebc;
+    --color2: #023047;
+    --fuente1: cambira;
+    --espacio1: 60px;
+}
+body{
+    background-color: var(--color2);
+}
+
+h1, h2{
+    color: var(--color1);
+    text-align: center;
+    font-family: var(--fuente1);
+    margin: var(--espacio1);
+    padding: var(--espacio1);
+}
+
+div{
+    border: 1px solid var(--color1);
+    width: 50%;
+    margin: var(--espacio1);
+    border-radius: var(--espacio1);
+}
+
+button{
+    color: var(--color1);
+    font-family: var(--fuente1);
+
+}
+p{
+    color: var(--color1);
+    font-family: var(--fuente1);
+}

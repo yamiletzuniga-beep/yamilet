@@ -1,0 +1,12 @@
+body{
+    color: lightblue;
+    animation: colores 10s ease-in-out 2s 3 alternate;
+}
+
+@keyframes colores{
+    0% { background-color: rgb(86, 77, 203);}
+    25%{ background-color: chartreuse; color: navy; font-family: impact;}
+    50%{background-color: blueviolet; color: azure;}
+    75%{ background-color: chocolate; color: bisque;}
+    100%{ background-color: lightseagreen; color: navy;}
+}
